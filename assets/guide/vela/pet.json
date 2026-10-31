@@ -1,0 +1,7 @@
+{
+  "id": "vela",
+  "displayName": "Vela",
+  "description": "Original cockpit guide for Open Constellation, an educational non-profit Earth-first atlas. Guide, not Oracle.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}

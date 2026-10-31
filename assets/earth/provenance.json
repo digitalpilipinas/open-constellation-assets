@@ -1,0 +1,68 @@
+{
+  "kind": "nasa-bmng",
+  "license": "NASA media guidelines; NASA-led mission imagery is not copyrighted in the US. Credit NASA Earth Observatory. No endorsement.",
+  "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73751/world.topo.bathy.200407.3x5400x2700.jpg | https://eoimages.gsfc.nasa.gov/images/imagerecords/55000/55167/earth_lights_lrg.jpg | https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_2048.jpg",
+  "attribution": "Earth imagery: NASA Earth Observatory — Blue Marble Next Generation (Reto Stöckli). Not live Earth. NASA does not endorse this project.",
+  "generator": "scripts/build-earth-assets.ts",
+  "format": "webp",
+  "files": [
+    "earth-day-1k.webp",
+    "earth-day-2k.webp",
+    "earth-day-4k.webp",
+    "earth-night-1k.webp",
+    "earth-night-2k.webp",
+    "earth-night-4k.webp",
+    "earth-clouds-1k.webp",
+    "earth-clouds-2k.webp",
+    "earth-clouds-4k.webp"
+  ],
+  "tiers": {
+    "1k": {
+      "width": 1024,
+      "height": 512
+    },
+    "2k": {
+      "width": 2048,
+      "height": 1024
+    },
+    "4k": {
+      "width": 4096,
+      "height": 2048
+    }
+  },
+  "layers": [
+    {
+      "layer": "day",
+      "title": "Blue Marble Next Generation, July 2004, with topography and bathymetry",
+      "page": "https://visibleearth.nasa.gov/images/73751/july-blue-marble-next-generation-w-topography-and-bathymetry",
+      "originalUrl": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73751/world.topo.bathy.200407.3x5400x2700.jpg",
+      "files": [
+        "earth-day-1k.webp",
+        "earth-day-2k.webp",
+        "earth-day-4k.webp"
+      ]
+    },
+    {
+      "layer": "night",
+      "title": "Earth's City Lights (NASA Earth Observatory)",
+      "page": "https://visibleearth.nasa.gov/images/55167/earths-city-lights",
+      "originalUrl": "https://eoimages.gsfc.nasa.gov/images/imagerecords/55000/55167/earth_lights_lrg.jpg",
+      "files": [
+        "earth-night-1k.webp",
+        "earth-night-2k.webp",
+        "earth-night-4k.webp"
+      ]
+    },
+    {
+      "layer": "clouds",
+      "title": "Blue Marble: Clouds (NASA Earth Observatory)",
+      "page": "https://visibleearth.nasa.gov/images/57747/blue-marble-clouds",
+      "originalUrl": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_2048.jpg",
+      "files": [
+        "earth-clouds-1k.webp",
+        "earth-clouds-2k.webp",
+        "earth-clouds-4k.webp"
+      ]
+    }
+  ]
+}
